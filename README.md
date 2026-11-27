@@ -378,7 +378,7 @@ Our control flow logic for the ToDo List Manager is as follows:
 
 | Name       | Contribution |
 |------------|--------------|
-| Milos Dumitrovic     |              |
-| Julian Zurkinden    |              |
-| Fabio Rubin     |              |
-| Mateja Dimitrijevic     |              |
+| Mateja Dimitrijevic | User Stories 1, 2, 3: Add and View Tasks, Complete and Remove Tasks, Save and Load Tasks |
+| Milos Dumitrovic | User Stories 4, 7, 8: Edit a task, Category / Subject Assignment, Notes |
+| Fabio Rubin | User Stories 5, 6, 9: Data Validation, Priority, Filter |
+| Julian Zurkinden | User Stories 10, 11, 12: Search by Keyword, Overdue and Upcoming Deadlines, Progress Overview |

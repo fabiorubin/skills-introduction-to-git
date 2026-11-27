@@ -283,7 +283,9 @@ After that, a menu is shown where the user can:
 7. **Search tasks** by a keyword
 8. **Show progress**, meaning how many tasks are already completed
 
-0\. **Exit** the program
+<!-- -->
+
+0. **Exit** the program
 
 All user input is checked, so empty descriptions, wrong date formats or invalid task numbers are rejected. Every change is saved to `tasks.json` right away, so no tasks are lost when the program is closed.
 

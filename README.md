@@ -310,9 +310,15 @@ The goal is to help students organize their daily tasks and school assignments m
 
 ```text
 ToDoListManager/
-├── main.py             # main program logic (console application)
-├── docs/               # optional screenshots or project documentation
-└── README.md           # project description and milestones
+├── main.py                 # main program logic (console application)
+├── tasks.py                # creating and editing tasks
+├── validation.py           # input validation
+├── storage.py              # saving and loading tasks (save_tasks, load_tasks)
+├── display.py              # displaying tasks and the progress overview
+├── tasks.json              # task data, created automatically on first start (listed in .gitignore)
+├── control flow logic.png  # control flow diagram
+├── .gitignore              # files ignored by git
+└── README.md               # project description and milestones
 ```
 
 ### 📄 File Descriptions

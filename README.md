@@ -331,6 +331,18 @@ Example of one saved task in `tasks.json`:
 - Environment: Visual Studio Code (local)
 - No external libraries
 
+### 📂 Project Structure
+
+```text
+ToDoListManager/
+├── main.py                 # main program logic (console application)
+├── tasks.py                # creating and editing tasks (add_task, edit_task, complete_task, remove_task)
+├── validation.py           # input validation (get_task_index, ask_description, ask_deadline, ask_priority, ask_category)
+├── storage.py              # saving and loading tasks (save_tasks, load_tasks)
+├── display.py              # displaying tasks and the progress overview (view_tasks, filter_completion, filter_priority, filter_category, search_tasks, show_deadline_warnings, show_progress)
+├── tasks.json              # task data, created automatically on first start (listed in .gitignore)
+```
+
 ### ▶️ How to Run
 1. Clone the repository to your device:
 ```bash
@@ -352,18 +364,6 @@ On Windows, use `python main.py` or `py main.py` instead.
 - `os`: Used in `main.py` to clear the console screen (`cls` on Windows, `clear` on macOS/Linux) so the menu stays easy to read.
 
 These libraries are part of the Python standard library, so no external installation is required. They were chosen because they are simple and cover everything the app needs: saving data, working with dates and keeping the console clean.
-
-## 📂 Project Structure
-
-```text
-ToDoListManager/
-├── main.py                 # main program logic (console application)
-├── tasks.py                # creating and editing tasks (add_task, edit_task, complete_task, remove_task)
-├── validation.py           # input validation (get_task_index, ask_description, ask_deadline, ask_priority, ask_category)
-├── storage.py              # saving and loading tasks (save_tasks, load_tasks)
-├── display.py              # displaying tasks and the progress overview (view_tasks, filter_completion, filter_priority, filter_category, search_tasks, show_deadline_warnings, show_progress)
-├── tasks.json              # task data, created automatically on first start (listed in .gitignore)
-```
 
 ## ⚙️ Control Flow Logic
 Our control flow logic for the ToDo List Manager is as follows:

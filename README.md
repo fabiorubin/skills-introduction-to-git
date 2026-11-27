@@ -1,6 +1,6 @@
 # ✅ ToDo List Manager
 
-## 📖 Description
+## 💡 Problem & Goal
 
 **❗ Problem**
 
@@ -266,16 +266,25 @@ The goal is to help students organize their daily tasks and school assignments m
 - *When* the student selects the option "Show progress",
 - *Then* the system displays a message that there are no tasks yet instead of an error.
 
----
+## 🧠 Main Functionality
 
-### 🧩 Use cases
+The ToDo List Manager is a console application that helps students organise their tasks.
 
-**🧩 Use cases:**
-- 
+When the program starts, it loads all saved tasks from `tasks.json`, shows the task list and warns about tasks that are overdue or due within the next 3 days.
 
-## ✨ Features
+After that, a menu is shown where the user can:
 
-- 
+1. **Add a task** with a description, deadline, priority, category and optional notes
+2. **View all tasks** with their details and status
+3. **Edit a task**, for example to change its deadline or notes
+4. **Mark a task as completed**
+5. **Remove a task** that is no longer needed
+6. **Filter tasks** by status, priority or category
+7. **Search tasks** by a keyword
+8. **Show progress**, meaning how many tasks are already completed
+0. **Exit** the program
+
+All user input is checked, so empty descriptions, wrong date formats or invalid task numbers are rejected. Every change is saved to `tasks.json` right away, so no tasks are lost when the program is closed.
 
 ## ▶️ How to Run
 

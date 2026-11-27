@@ -282,14 +282,15 @@ After that, a menu is shown where the user can:
 6. **Filter tasks** by status, priority or category
 7. **Search tasks** by a keyword
 8. **Show progress**, meaning how many tasks are already completed
-0. **Exit** the program
+
+0\. **Exit** the program
 
 All user input is checked, so empty descriptions, wrong date formats or invalid task numbers are rejected. Every change is saved to `tasks.json` right away, so no tasks are lost when the program is closed.
 
 ### ⚙️ Control Flow Logic
 Our control flow logic for the ToDo List Manager is as follows:
 
-<img src="control%20flow%20logic.png" alt="Control Flow Logic" width="500">
+<img src="docs/control%20flow%20logic.png" alt="Control Flow Logic" width="500">
 
 ## ✅ Project Requirements
 
@@ -340,12 +341,15 @@ Example of one saved task in `tasks.json`:
 
 ```text
 ToDoListManager/
-├── main.py                 # main program logic (console application)
-├── tasks.py                # creating and editing tasks (add_task, edit_task, complete_task, remove_task)
-├── validation.py           # input validation (get_task_index, ask_description, ask_deadline, ask_priority, ask_category)
-├── storage.py              # saving and loading tasks (save_tasks, load_tasks)
-├── display.py              # displaying tasks and the progress overview (view_tasks, filter_completion, filter_priority, filter_category, search_tasks, show_deadline_warnings, show_progress)
-├── tasks.json              # task data, created automatically on first start (listed in .gitignore)
+├── main.py                    # main program logic (console application)
+├── tasks.py                   # creating and editing tasks (add_task, edit_task, complete_task, remove_task)
+├── validation.py              # input validation (get_task_index, ask_description, ask_deadline, ask_priority, ask_category)
+├── storage.py                 # saving and loading tasks (save_tasks, load_tasks)
+├── display.py                 # displaying tasks and the progress overview (view_tasks, filter_completion, filter_priority, filter_category, search_tasks, show_deadline_warnings, show_progress)
+├── tasks.json                 # task data, created automatically on first start (listed in .gitignore)
+├── docs/                      # documentation, not needed to run the program
+│   └── control flow logic.png # control flow diagram used in this README
+└── README.md                  # project description and documentation
 ```
 
 ### ▶️ How to Run

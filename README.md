@@ -1,6 +1,6 @@
 # ✅ ToDo List Manager
 
-## 📝 Analysis
+## 📖 Description
 
 **❗ Problem**
 
@@ -9,6 +9,10 @@ Students have many things to do, such as school assignments and daily tasks, whi
 **🎯 Goal**
 
 The goal is to help students organize their daily tasks and school assignments more easily. The ToDo List Manager allows students to create tasks, set priorities, and filter tasks so they can find important tasks faster and better organize their work.
+
+---
+
+## 📝 Analysis
 
 ### 👤 User Roles
 
@@ -265,21 +269,76 @@ The goal is to help students organize their daily tasks and school assignments m
 - *Then* the system displays a message that there are no tasks yet instead of an error.
 
 ---
-## ⚙️ Control Flow Logic
-Our control flow logic for the ToDo List Manager is as follows:
 
-<img src="control%20flow%20logic.png" alt="Control Flow Logic" width="500">
-
-
----
-
+### 🧩 Use cases
 
 **🧩 Use cases:**
 - 
 
 ---
 
-## ✅ Project Requirements
+## ✨ Features
+
+- 
+
+---
+
+## ▶️ How to Run
+
+### 📋 Requirements
+
+- 
+
+### 🚀 Start the App
+
+1. Open the repository in **GitHub Codespaces**
+2. Open the **Terminal**
+3. Run:
+```bash
+	python3 main.py
+```
+
+### 🆕 First Start
+
+- 
+
+---
+
+## 🖥️ Usage
+
+### 📜 Main Menu
+
+- 
+
+### 💡 Example Interactions
+
+- 
+
+---
+
+## 📂 Project Structure
+
+```text
+ToDoListManager/
+├── main.py             # main program logic (console application)
+├── docs/               # optional screenshots or project documentation
+└── README.md           # project description and milestones
+```
+
+### 📄 File Descriptions
+
+- 
+
+---
+
+## 🔧 Technical Details
+
+### 🐍 Technology
+- Python 3.x
+- Environment: GitHub Codespaces
+- No external libraries
+
+### ✅ Project Requirements
 
 Each app must meet the following three criteria in order to be accepted (see also the official project guidelines PDF on Moodle):
 
@@ -289,14 +348,14 @@ Each app must meet the following three criteria in order to be accepted (see als
 
 ---
 
-### 1. 💻 Interactive App (Console Input)
+#### 1. 💻 Interactive App (Console Input)
 
 The application interacts with the user via the console. Users can:
 - 
 
 ---
 
-### 2. 🛡️ Data Validation
+#### 2. 🛡️ Data Validation
 
 The application validates all user input to ensure data integrity and a smooth user experience:
 
@@ -304,39 +363,27 @@ The application validates all user input to ensure data integrity and a smooth u
 
 ---
 
-### 3. 📁 File Processing
+#### 3. 📁 File Processing
 
 The application reads and writes data using files:
 
 - **📥 Input file:** 
 - **📤 Output file:** 
 
-## ⚙️ Implementation
-
-### 🐍 Technology
-- Python 3.x
-- Environment: GitHub Codespaces
-- No external libraries
-
-### 📂 Repository Structure
-```text
-ToDoListManager/
-├── main.py             # main program logic (console application)
-├── docs/               # optional screenshots or project documentation
-└── README.md           # project description and milestones
-```
-
-### ▶️ How to Run
-1. Open the repository in **GitHub Codespaces**
-2. Open the **Terminal**
-3. Run:
-```bash
-	python3 main.py
-```
+---
 
 ### 📚 Libraries Used
 
 - 
+
+---
+
+## ⚙️ Control Flow Logic
+Our control flow logic for the ToDo List Manager is as follows:
+
+<img src="control%20flow%20logic.png" alt="Control Flow Logic" width="500">
+
+---
 
 ## 👥 Team & Contributions
 

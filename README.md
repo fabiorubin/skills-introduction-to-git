@@ -311,12 +311,11 @@ The goal is to help students organize their daily tasks and school assignments m
 ```text
 ToDoListManager/
 ├── main.py                 # main program logic (console application)
-├── tasks.py                # creating and editing tasks
-├── validation.py           # input validation
+├── tasks.py                # creating and editing tasks (add_task, edit_task, complete_task, remove_task)
+├── validation.py           # input validation (get_task_index, ask_description, ask_deadline, ask_priority, ask_category)
 ├── storage.py              # saving and loading tasks (save_tasks, load_tasks)
-├── display.py              # displaying tasks and the progress overview
+├── display.py              # displaying tasks and the progress overview (view_tasks, filter_completion, filter_priority, filter_category, search_tasks, show_deadline_warnings, show_progress)
 ├── tasks.json              # task data, created automatically on first start (listed in .gitignore)
-└── README.md               # project description and milestones
 ```
 
 ### 📄 File Descriptions

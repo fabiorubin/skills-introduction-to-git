@@ -316,8 +316,6 @@ ToDoListManager/
 ├── storage.py              # saving and loading tasks (save_tasks, load_tasks)
 ├── display.py              # displaying tasks and the progress overview
 ├── tasks.json              # task data, created automatically on first start (listed in .gitignore)
-├── control flow logic.png  # control flow diagram
-├── .gitignore              # files ignored by git
 └── README.md               # project description and milestones
 ```
 

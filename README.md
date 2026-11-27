@@ -10,8 +10,6 @@ Students have many things to do, such as school assignments and daily tasks, whi
 
 The goal is to help students organize their daily tasks and school assignments more easily. The ToDo List Manager allows students to create tasks, set priorities, and filter tasks so they can find important tasks faster and better organize their work.
 
----
-
 ## 📝 Analysis
 
 ### 👤 User Roles
@@ -275,13 +273,9 @@ The goal is to help students organize their daily tasks and school assignments m
 **🧩 Use cases:**
 - 
 
----
-
 ## ✨ Features
 
 - 
-
----
 
 ## ▶️ How to Run
 
@@ -302,8 +296,6 @@ The goal is to help students organize their daily tasks and school assignments m
 
 - 
 
----
-
 ## 🖥️ Usage
 
 ### 📜 Main Menu
@@ -313,8 +305,6 @@ The goal is to help students organize their daily tasks and school assignments m
 ### 💡 Example Interactions
 
 - 
-
----
 
 ## 📂 Project Structure
 
@@ -328,8 +318,6 @@ ToDoListManager/
 ### 📄 File Descriptions
 
 - 
-
----
 
 ## 🔧 Technical Details
 
@@ -376,14 +364,10 @@ The application reads and writes data using files:
 
 - 
 
----
-
 ## ⚙️ Control Flow Logic
 Our control flow logic for the ToDo List Manager is as follows:
 
 <img src="control%20flow%20logic.png" alt="Control Flow Logic" width="500">
-
----
 
 ## 👥 Team & Contributions
 

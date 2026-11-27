@@ -286,6 +286,30 @@ After that, a menu is shown where the user can:
 
 All user input is checked, so empty descriptions, wrong date formats or invalid task numbers are rejected. Every change is saved to `tasks.json` right away, so no tasks are lost when the program is closed.
 
+## ✅ Project Requirements
+
+The app meets the three required criteria:
+
+1. Interactive app (console input)
+2. Data validation (input checking)
+3. File processing (read/write)
+
+### 1. 💻 Interactive App (Console Input)
+The user controls the app through a console menu and can add, view, edit, complete, remove, filter and search tasks, as well as see their progress.
+
+### 2. 🛡️ Data Validation
+All input is checked in `validation.py` and `main.py`:
+- Descriptions can't be empty
+- Deadlines must use the format DD.MM.YYYY
+- Priority must be High, Medium or Low
+- Task numbers must exist (0 cancels)
+- Invalid menu choices show an error and the menu appears again
+
+### 3. 📁 File Processing
+Tasks are stored in `tasks.json` (`storage.py`):
+- **📥 Read:** at startup, tasks are loaded from the file (an empty file is created if none exists)
+- **📤 Write:** every change is saved to the file right away
+
 ## ⚙️ Implementation
 
 ### 🐍 Technology

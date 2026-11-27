@@ -266,7 +266,7 @@ The goal is to help students organize their daily tasks and school assignments m
 - *When* the student selects the option "Show progress",
 - *Then* the system displays a message that there are no tasks yet instead of an error.
 
-## 🧠 Main Functionality
+## 🕹️ Main Functionality
 
 The ToDo List Manager is a console application that helps students organise their tasks.
 
@@ -285,6 +285,11 @@ After that, a menu is shown where the user can:
 0. **Exit** the program
 
 All user input is checked, so empty descriptions, wrong date formats or invalid task numbers are rejected. Every change is saved to `tasks.json` right away, so no tasks are lost when the program is closed.
+
+### ⚙️ Control Flow Logic
+Our control flow logic for the ToDo List Manager is as follows:
+
+<img src="control%20flow%20logic.png" alt="Control Flow Logic" width="500">
 
 ## ✅ Project Requirements
 
@@ -364,11 +369,6 @@ On Windows, use `python main.py` or `py main.py` instead.
 - `os`: Used in `main.py` to clear the console screen (`cls` on Windows, `clear` on macOS/Linux) so the menu stays easy to read.
 
 These libraries are part of the Python standard library, so no external installation is required. They were chosen because they are simple and cover everything the app needs: saving data, working with dates and keeping the console clean.
-
-## ⚙️ Control Flow Logic
-Our control flow logic for the ToDo List Manager is as follows:
-
-<img src="control%20flow%20logic.png" alt="Control Flow Logic" width="500">
 
 ## 👥 Team & Contributions
 

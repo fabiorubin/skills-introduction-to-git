@@ -286,95 +286,34 @@ After that, a menu is shown where the user can:
 
 All user input is checked, so empty descriptions, wrong date formats or invalid task numbers are rejected. Every change is saved to `tasks.json` right away, so no tasks are lost when the program is closed.
 
-## ▶️ How to Run
-
-### 📋 Requirements
-
-- 
-
-### 🚀 Start the App
-
-1. Open the repository in **GitHub Codespaces**
-2. Open the **Terminal**
-3. Run:
-```bash
-	python3 main.py
-```
-
-### 🆕 First Start
-
-- 
-
-## 🖥️ Usage
-
-### 📜 Main Menu
-
-- 
-
-### 💡 Example Interactions
-
-- 
-
-## 📂 Project Structure
-
-```text
-ToDoListManager/
-├── main.py                 # main program logic (console application)
-├── tasks.py                # creating and editing tasks (add_task, edit_task, complete_task, remove_task)
-├── validation.py           # input validation (get_task_index, ask_description, ask_deadline, ask_priority, ask_category)
-├── storage.py              # saving and loading tasks (save_tasks, load_tasks)
-├── display.py              # displaying tasks and the progress overview (view_tasks, filter_completion, filter_priority, filter_category, search_tasks, show_deadline_warnings, show_progress)
-├── tasks.json              # task data, created automatically on first start (listed in .gitignore)
-```
-
-### 📄 File Descriptions
-
-- 
-
-## 🔧 Technical Details
+## ⚙️ Implementation
 
 ### 🐍 Technology
 - Python 3.x
-- Environment: GitHub Codespaces
+- Environment: Visual Studio Code (local)
 - No external libraries
 
-### ✅ Project Requirements
-
-Each app must meet the following three criteria in order to be accepted (see also the official project guidelines PDF on Moodle):
-
-1. Interactive app (console input)
-2. Data validation (input checking)
-3. File processing (read/write)
-
----
-
-#### 1. 💻 Interactive App (Console Input)
-
-The application interacts with the user via the console. Users can:
-- 
-
----
-
-#### 2. 🛡️ Data Validation
-
-The application validates all user input to ensure data integrity and a smooth user experience:
-
-- 
-
----
-
-#### 3. 📁 File Processing
-
-The application reads and writes data using files:
-
-- **📥 Input file:** 
-- **📤 Output file:** 
-
----
+### ▶️ How to Run
+1. Clone the repository to your device:
+```bash
+git clone https://github.com/julian05z/todo-list-manager.git
+```
+2. Open the Terminal and go into the project folder:
+```bash
+cd todo-list-manager
+```
+3. Start the program:
+```bash
+python3 main.py
+```
+On Windows, use `python main.py` or `py main.py` instead.
 
 ### 📚 Libraries Used
+- `json`: Used in `storage.py` to save the task list to `tasks.json` and load it again when the program starts.
+- `datetime`: Used in `display.py` (`datetime` and `timedelta`) to compare deadlines with today's date and find tasks that are overdue or due within the next 3 days.
+- `os`: Used in `main.py` to clear the console screen (`cls` on Windows, `clear` on macOS/Linux) so the menu stays easy to read.
 
-- 
+These libraries are part of the Python standard library, so no external installation is required. They were chosen because they are simple and cover everything the app needs: saving data, working with dates and keeping the console clean.
 
 ## ⚙️ Control Flow Logic
 Our control flow logic for the ToDo List Manager is as follows:
